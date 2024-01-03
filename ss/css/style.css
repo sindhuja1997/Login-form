@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h1{
+  background-color: rgb(252, 239, 223);
+  text-align: center;
+  border: 1px solid rgb(139, 28, 0);
+}
+h1:hover{
+  color: blue;
+  background-color: whitesmoke;
+}
+.banner{
+    width: 100%;
+    height: 150vh;
+    background-image: url(https://i.pinimg.com/originals/2a/6f/f3/2a6ff37f2d7be496117a2e22aeac67fc.jpg);
+    background-color: linear-gradient(rgb(207, 207, 238));
+    background-position: center;
+ 
+}   
+.landingbar{
+    margin-left: 800px;
+    width: 85%;
+    display: flex;
+}
+
+.landingbar ul li{
+    float: right;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.landingbar ul li a{
+    text-decoration: none;
+    color: darkblue;
+    text-shadow: black 2px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 30px;
+}
+.landingbar ul li a:hover{
+  text-decoration: none;
+  color: red;
+  border-bottom: 10px;
+  border-color: rgb(167, 178, 202);
+  transition-duration: 0.8s;
+  border-style: groove;
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+    margin: 150px 550px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid white;
+  }
+  
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover{
+    color: rgb(247, 247, 253);
+    background-color: blue;
+  }
+
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  img.logo {
+    width: 40%;
+    border-radius: 50%;
+  }
+
+  .container {
+    padding: 16px;
+  }
+
+  span.psw {
+    float: right;
+    padding-top: 16px;
+    display: block;
+    float: none;
+    color: darkblue;
+  }
